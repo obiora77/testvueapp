@@ -2,7 +2,6 @@
   <div id="app">
     <AppHeader />
     <router-view />
-    <AppFooter />
 
      <Vue3Marquee class="team-marquee">
         <div class="team-grid">
@@ -22,6 +21,8 @@
           </div>
         </div>
       </Vue3Marquee>
+    <AppFooter />
+
   </div>
 </template>
 
